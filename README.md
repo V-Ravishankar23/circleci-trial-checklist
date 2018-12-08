@@ -22,8 +22,11 @@ Writing CircleCI configuration may seem daunting, but once you learn the basics,
 The power of CircleCI lies in your configuration. We have built our platform to be as unopinionated as possible so that CircleCI can be used to create the ideal CI/CD framework for any project. The more you are able to optimize your configuration for your unique project, the more you will get out of CircleCI. The first step in doing so is understanding the building blocks of your configuration file: _Builds, Workflows, and Jobs_.
 
 Build
+
  ⤷ Workflows
+
    ⤷ Jobs
+
      ⤷ Steps
 
 For an in-depth breakdown, go through CircleCI’s [configuration reference](https://circleci.com/docs/2.0/configuration-reference/#section=configuration) to become acquainted with the ins-and-outs of our capabilities.
