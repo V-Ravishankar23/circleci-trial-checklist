@@ -18,4 +18,12 @@ Head to [https://circleci.com/signup](https://circleci.com/signup). Click on the
 
 ## Get to know your `config.yml` file
 Writing CircleCI configuration may seem daunting, but once you learn the basics, you’ll be optimizing your builds in no time. CircleCI config is written in declarative YAML syntax. If you’re new to writing YAML, take a look at our [introduction to YAML docs](https://circleci.com/docs/2.0/writing-yaml/#section=configuration).
-If you're already familiar with YAML, go through CircleCI’s [configuration reference](https://circleci.com/docs/2.0/configuration-reference/#section=configuration) to become acquainted with the ins-and-outs of our capabilities.
+
+The power of CircleCI lies in your configuration. We have built our platform to be as unopinionated as possible so that CircleCI can be used to create the ideal CI/CD framework for any project. The more you are able to optimize your configuration for your unique project, the more you will get out of CircleCI. The first step in doing so is understanding the building blocks of your configuration file: _Builds, Workflows, and Jobs_.
+
+Build
+ ⤷ Workflows
+   ⤷ Jobs
+     ⤷ Steps
+
+For an in-depth breakdown, go through CircleCI’s [configuration reference](https://circleci.com/docs/2.0/configuration-reference/#section=configuration) to become acquainted with the ins-and-outs of our capabilities.
