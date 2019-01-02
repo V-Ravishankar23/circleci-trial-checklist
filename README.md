@@ -105,7 +105,7 @@ From your CLI on your machine, SSH into the build using the information provided
 
 ## &#9744; Make sure you're caching
 
-One of the best ways to speed up your CircleCI builds is to use good caching practices. You can learn about CircleCI's caching capabilities in our [caching documentation](https://circleci.com/docs/2.0/caching/). We also have documentation dedicated to techniques for [optimizing your caching strategy :fa-external-link-alt:](https://circleci.com/docs/2.0/optimizations/).
+One of the best ways to speed up your CircleCI builds is to use good caching practices. You can learn about CircleCI's caching capabilities in our [caching documentation](https://circleci.com/docs/2.0/caching/). We also have documentation dedicated to techniques for [optimizing your caching strategy](https://circleci.com/docs/2.0/optimizations/) :fa-external-link-alt:
 
 ## &#9744; Explore Orbs
 
