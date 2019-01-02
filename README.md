@@ -95,7 +95,13 @@ executors:
 
 ## &#9744; Rerun a failed job with SSH for debugging
 
-If one of your jobs fails, one of the best ways to debug it is to SSH into it's container as it is running. You can do this by rerunning any failed job with SSH. To rerun a job with SSH, open the job in the CircleCI UI, then, in the upper right corner of the page, click the arrow next to the _"Rerun workflow"_ button and select _"Rerun job with SSH"_. From your CLI on your machine, SSH into the build using the information provided in the CircleCI UI. Happy debugging!
+If one of your jobs fails, one of the best ways to debug it is to SSH into it's container as it is running. You can do this by rerunning any failed job with SSH.
+
+To rerun a job with SSH, open the job in the CircleCI UI, then, in the upper right corner of the page, click the arrow next to the _"Rerun workflow"_ button and select _"Rerun job with SSH"_.
+
+![Rerun workflow with SSH](/img/rerun-ssh.png)
+
+From your CLI on your machine, SSH into the build using the information provided in the CircleCI UI. Happy debugging!
 
 
 ## &#9744; Explore Orbs
