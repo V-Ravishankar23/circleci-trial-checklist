@@ -103,17 +103,23 @@ To rerun a job with SSH, open the job in the CircleCI UI, then, in the upper rig
 
 From your CLI on your machine, SSH into the build using the information provided in the CircleCI UI. Happy debugging!
 
+
 ## &#9744; Make sure you're caching
 
-One of the best ways to speed up your CircleCI builds is to use good caching practices. You can learn about CircleCI's caching capabilities in our [caching documentation](https://circleci.com/docs/2.0/caching/). We also have documentation dedicated to techniques for [optimizing your caching strategy](https://circleci.com/docs/2.0/optimizations/) :fa-external-link-alt:
+One of the best ways to speed up your CircleCI builds is to use good caching practices. You can learn about CircleCI's caching capabilities in our [caching documentation](https://circleci.com/docs/2.0/caching/). We also have documentation dedicated to techniques for [optimizing your caching strategy](https://circleci.com/docs/2.0/optimizations/).
+
+If you're using `docker build` in your workflow, you can also use [Docker Layer Caching](https://circleci.com/docs/2.0/docker-layer-caching/) to decrease Docker image build times.
+
 
 ## &#9744; Explore Orbs
 
 [Orbs](https://circleci.com/orbs) are reusable, sharable packages of CircleCI configuration. Orbs allow you to import pre-build commands, jobs, and executors into your configuration file, so that you don't spend time reinventing the wheel.
 
+
 ### Using existing orbs
 
 Our ecosystem is already full of existing orbs built by our community. Have a look through the [Orbs Registry](https://circleci.com/orbs/registry) to see if any existing orbs could simplify your configuration. If want to learn more about using existing orbs, [read our documentation](https://circleci.com/docs/2.0/using-orbs/#section=configuration).
+
 
 ### Creating Orbs
 
