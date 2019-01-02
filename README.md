@@ -100,6 +100,7 @@ If one of your jobs fails, one of the best ways to debug it is to SSH into it's 
 To rerun a job with SSH, open the job in the CircleCI UI, then, in the upper right corner of the page, click the arrow next to the _"Rerun workflow"_ button and select _"Rerun job with SSH"_.
 
 ![Rerun workflow with SSH](/img/rerun-ssh.png)
+<img src="/img/rerun-ssh.png" width="100px" />
 
 From your CLI on your machine, SSH into the build using the information provided in the CircleCI UI. Happy debugging!
 
