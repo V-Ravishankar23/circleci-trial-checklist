@@ -22,7 +22,7 @@ Head to [https://circleci.com/signup](https://circleci.com/signup). Click on the
 
 
 ## &#9744; Install the CircleCI CLI
-The CircleCI CLI allows you to run CircleCI actions locally, such as valitating your config file, running local builds, and operating on Orbs. Visit [this documentation](https://circleci.com/docs/2.0/local-cli/#section=configuration) for instructions on installing and using the CircleCI CLI.
+The CircleCI CLI allows you to run CircleCI actions locally, such as validating your config file, running local builds, and operating on Orbs. Visit [this documentation](https://circleci.com/docs/2.0/local-cli/#section=configuration) for instructions on installing and using the CircleCI CLI.
 
 
 ## &#9744; Read our docs
@@ -39,7 +39,7 @@ While reading documentation isn't always the most exciting part of using CircleC
 
 ### Workflow structure
 
-:page_facing_up: [Overview of Workflows, Jobs, and Steps](https://circleci.com/docs/2.0/jobs-steps/) -- _Workflows, Jobs, and Steps_ are the building blocs of your CircleCI configuration. This document gives an overview of what they are, and how you should use them. You can find more information on configuring workflows in the [Workflows section](https://circleci.com/docs/2.0/configuration-reference/#workflows) of the configuration reference.
+:page_facing_up: [Overview of Workflows, Jobs, and Steps](https://circleci.com/docs/2.0/jobs-steps/) -- _Workflows, Jobs, and Steps_ are the building blocks of your CircleCI configuration. This document gives an overview of what they are, and how you should use them. You can find more information on configuring workflows in the [Workflows section](https://circleci.com/docs/2.0/configuration-reference/#workflows) of the configuration reference.
 
 
 ### Executors and images
@@ -95,7 +95,7 @@ executors:
 
 ## &#9744; Rerun a failed job with SSH for debugging
 
-If one of your jobs fails, one of the best ways to debug it is to SSH into it's container as it is running. You can do this by rerunning any failed job with SSH.
+If one of your jobs fails, one of the best ways to debug it is to SSH into its container as it is running. You can do this by rerunning any failed job with SSH.
 
 To rerun a job with SSH, open the job in the CircleCI UI, then, in the upper right corner of the page, click the arrow next to the _"Rerun workflow"_ button and select _"Rerun job with SSH"_.
 
