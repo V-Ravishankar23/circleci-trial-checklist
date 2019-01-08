@@ -1,12 +1,34 @@
 # CircleCI Trial Checklist
 This checklist is a guide to making the most of your CircleCI trial. Managing DevOps tools can be complex, so we want to help you understand the full potential of CircleCI so that you can make an informed decision.
 
+## Phase 1: Prerequisites
+This phase is all about getting up-and-running with CircleCI. It is likely that you have already done some or all of these steps, but we want to include them to make sure that you have the best possible starting point for your trial.
 
-## &#9744; Set up a CircleCI account
+
+### &#9744; Set up a CircleCI account (skip if you already have an account)
 Head to [https://circleci.com/signup](https://circleci.com/signup). Click on the “Sign Up” button for whichever VCS provider you would like to use with CircleCI. Sign in with you VCS login and authorize CircleCI to access your repositories.
 
 
-## &#9744; Add a project to CircleCI
+### &#9744; Install the CircleCI CLI (skip if you have already installed the CLI)
+The CircleCI CLI allows you to run CircleCI actions locally, such as validating your config file, running local builds, and operating on Orbs. If you're using Homebrew on MacOS, run the following command:
+```bash
+brew install circleci
+```
+ Visit [this documentation](https://circleci.com/docs/2.0/local-cli/#section=configuration) for instructions on other installation methods and on using the CircleCI CLI.
+
+
+### &#9744; First green build
+If you have yet to run a build on CircleCI, the introduction walkthrough is one of the best ways to get acquainted with our system and to get your first green build. To get started, head over to the [Introduction documentation](https://circleci.com/docs/2.0/getting-started/#section=getting-started) and follow the instructions.
+
+
+### &#9744; Read the rest of the "Getting Started" docs
+Once you've gotten your first green build, continue to go through the ["Getting Started" section](https://circleci.com/docs/2.0/hello-world/#section=getting-started) of the CircleCI documentation. This information will give you a good starting point for adapting CircleCI to meet the unique needs of your projects.
+
+
+## Phase 2: Adapting your configuration to your project
+Now that you understand the basics of CircleCI, it's time to start customizing your configuration to build the optimal CI framework for your project. In this section we will give you short overviews of the features you can use and provide links to the documentation that will help you incorporate them into your `config.yml` file.
+
+### &#9744; Add a project to CircleCI
 :page_facing_up: [__Full _Projects and Builds_ documentation__](https://circleci.com/docs/2.0/project-build/#section=getting-started)
 
 1. On the left navigation bar, click “Add Projects”. The list automatically populates with the repositories in your VCS organization. You can search for projects using the “Filter projects…” search bar. If you are setting up a macOS project, click on the “macOS” tab.
@@ -19,10 +41,6 @@ Head to [https://circleci.com/signup](https://circleci.com/signup). Click on the
 8. Paste the sample configuration code into the `config.yml` file and commit it to your master branch
 9. Return to CircleCI and click “Start Building”
 10. You should be taken to your first build, and you can see the logs from the execution environment
-
-
-## &#9744; Install the CircleCI CLI
-The CircleCI CLI allows you to run CircleCI actions locally, such as validating your config file, running local builds, and operating on Orbs. Visit [this documentation](https://circleci.com/docs/2.0/local-cli/#section=configuration) for instructions on installing and using the CircleCI CLI.
 
 
 ## &#9744; Read our docs
