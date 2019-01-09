@@ -122,7 +122,7 @@ If you're using `docker build` in your workflow, you can also use [Docker Layer 
 Our ecosystem is already full of existing orbs built by our community. Have a look through the [Orbs Registry](https://circleci.com/orbs/registry) to see if any existing orbs could simplify your configuration. If want to learn more about using existing orbs, [read our documentation](https://circleci.com/docs/2.0/using-orbs/#section=configuration).
 
 
-#### Creating Orbs
+#### Creating orbs
 
 If you have a use case for an orb that hasn't been created yet, it's easy to build it yourself so that you can use it across all of your projects. [Read our documentation](https://circleci.com/docs/2.0/creating-orbs/#section=configuration) on creating orbs to get started.
 
