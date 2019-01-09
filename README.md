@@ -9,6 +9,10 @@ This phase is all about getting up-and-running with CircleCI. It is likely that 
 Head to [https://circleci.com/signup](https://circleci.com/signup). Click on the “Sign Up” button for whichever VCS provider you would like to use with CircleCI. Sign in with you VCS login and authorize CircleCI to access your repositories.
 
 
+### &#9744; Remove trial setup account (skip if you've already removed the trial setup account)
+If an account was created to set up your CircleCI trial, and you haven't removed it yet, do so now.
+
+
 ### &#9744; Install the CircleCI CLI (skip if you have already installed the CLI)
 The CircleCI CLI allows you to run CircleCI actions locally, such as validating your config file, running local builds, and operating on Orbs. If you're using Homebrew on MacOS, run the following command:
 ```bash
@@ -56,7 +60,7 @@ The configuration section of our documentation will walk you through some of Cir
 
    This is the source of truth for CircleCI config. If you're having a tough time writing configuration for a specific feature, this is a good place to start troubleshooting.
 
-3. [Executors Configuratio](https://circleci.com/docs/2.0/executor-intro/#section=configuration)
+3. [Executors Configuration](https://circleci.com/docs/2.0/executor-intro/#section=configuration)
 4. [Orbs Configuration](https://circleci.com/docs/2.0/orb-intro/#section=configuration)
 5. [Example configurations](https://circleci.com/docs/2.0/examples-intro/#section=configuration)
 
@@ -101,7 +105,7 @@ To rerun a job with SSH, open the job in the CircleCI UI, then, in the upper rig
 From your CLI on your machine, SSH into the build using the information provided in the CircleCI UI. Happy debugging!
 
 
-### &#9744; Make sure you're caching
+### &#9744; Optimize your caching strategy
 
 One of the best ways to speed up your CircleCI builds is to use good caching practices. You can learn about CircleCI's caching capabilities in our [caching documentation](https://circleci.com/docs/2.0/caching/). We also have documentation dedicated to techniques for [optimizing your caching strategy](https://circleci.com/docs/2.0/optimizations/).
 
